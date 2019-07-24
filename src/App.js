@@ -1,8 +1,14 @@
 import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Form from './components/Form.js';
 
 function App() {
+  
+  const [array,setarray] =useState([{
+    name:"progress", email: "yougotit@gmail.com"},{name:"more progress", email: "babysteps@gmail.com"}
+    ]);
+
   return (
     <div className="App">
       <header className="App-header">
